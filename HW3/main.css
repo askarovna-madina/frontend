@@ -1,0 +1,42 @@
+body {
+    background-color: cornsilk;
+}
+h1{
+    color: crimson;
+    font-size: 45px;
+    text-align: center;
+}
+p {
+    font-size: 18px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+ul {
+    color: black;
+    font-size: 16px ;
+}
+ol { 
+    font-size: 16px;
+}
+li{
+    font-style: oblique;
+}
+table {
+    margin-left: 25px;
+    border: 1px solid;
+}
+td {
+    border: 1px solid;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+thead{
+    background-color: crimson;
+    font-size: 18px;
+    text-align: center;
+}
+dt{
+    color: crimson;
+}

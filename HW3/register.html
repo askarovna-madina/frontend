@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration Page</title>
+        <style>
+            h1 {
+                text-align: center;
+                font-size: 45px;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            body {
+               background-color: cornsilk;
+            }
+            p {
+                font-size: 18px;
+                text-align: left;
+                margin-top: 10px;
+                margin-left: 20px;
+
+            }
+            fieldset {
+                font-size: 16px;
+                margin-left: 15px;
+                margin-right: 15px;
+                margin-bottom: 10px;
+                text-align: center;
+                background-color: cornsilk;
+                border-radius: 10px;
+                border-color: black;
+            }
+            label, select {
+                text-align: left;
+                margin-top: 7px;
+                margin-bottom: 7px;
+                display:block;
+            }
+
+            button {
+                margin-left: 18px;
+                margin-top: 10px;
+                padding-left: 9px;
+                padding-right: 9px;
+            }
+            .agree {
+                margin-left: 15px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>
+            Registration Page
+        </h1>
+        <p>
+            Welcome to our website! To view more information, please complete this form completely. 
+        </p>
+        <form>
+            <fieldset>
+                <legend>User Info</legend>
+                <label for="firstname">First name: <input type="text" id="firstname" name="firstname"></label>
+                <label for="lastname">Last name: <input type="text" id="lastname" name="lastname"></label>
+                <label for="birthday">Birth Date: <input type="date" id="birthday" name="birthday"></label>
+            </fieldset>
+            <fieldset>    
+                <legend>Contact details</legend>
+                <label for="city">Choose your city: </label>
+                <select name="city", id="city">
+                    <option value="Almaty">Almaty</option>
+                    <option value="Astana">Astana</option>
+                    <option value="Shymkent">Shymkent</option>
+                    <option value="Pavlodar">Pavlodar</option>
+                    <option value="Aktau">Aktau</option>
+                    <option value="Qostanay">Qostanay</option>
+                </select>
+                <label for="phone">Enter your phone number: <input type="tel" id="phone" name="phone"></label>
+                <label for="email">Enter your email: <input type="email" id="email" name="email"></label>
+            </fieldset>
+            <fieldset>
+                <legend>Gender</legend>
+                <label for="gender">Your gender:</label>
+                <label for="male"><input type="radio" id="male" name="gender">Male</label>
+                <label for="female"><input type="radio" id="female" name="gender">Female</label>
+            </fieldset>
+            <p>   The data you filled in is stored in the database of our site, 
+            <br>  in order to continue confirm that you agree to the terms of use.</p>
+            <label class="agree" for="agree"><input type="checkbox" id="agree" name="agree"> I agree with the terms of use</label>
+            <button type="submit"><a href="login.html">Register</a></button>
+        </form>
+    </body>
+    </html>
