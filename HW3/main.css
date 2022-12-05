@@ -18,9 +18,6 @@ ul {
 ol { 
     font-size: 16px;
 }
-li{
-    font-style: oblique;
-}
 table {
     margin-left: 25px;
     border: 1px solid;
@@ -32,11 +29,19 @@ td {
     padding-top: 7px;
     padding-bottom: 7px;
 }
-thead{
+thead {
     background-color: crimson;
     font-size: 18px;
     text-align: center;
 }
-dt{
+dt {
     color: crimson;
 }
+section > ul {
+    font-style: italic;
+}
+
+.ascii:hover{
+    color: crimson;
+}
+
