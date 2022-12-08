@@ -1,0 +1,66 @@
+body{
+    background-color: cornsilk;
+}
+h1{
+    font-size: 35px;
+}
+h2, h3{
+  font-size: 30px;  
+}
+p {
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.head{
+    font-size: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.main{
+    margin-left: 250px;
+}
+.main img{
+    object-fit: cover;
+    width: 550px;
+    height: 300px;
+    margin-left: 100px;
+}
+.sidebar{
+    padding-left: 10px;
+    height: 600px; 
+    width: 160px; 
+    position: fixed; 
+    top: 0; 
+    left: 5;
+    background-color: crimson;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+.picture{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:20px;
+}
+.picture img {
+    object-fit: cover;
+    width: 250px;
+    height: 150px;
+    margin-left: 20px;
+}
+.footer {
+    display:flex;
+    margin-left: 600px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    gap:20px;
+}
