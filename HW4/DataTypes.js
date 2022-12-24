@@ -1,5 +1,4 @@
 'use strict';
-
 process.stdin.resume();
 process.stdin.setEncoding('utf-8');
 
@@ -36,6 +35,5 @@ function main() {
     const secondInteger = readLine();
     const secondDecimal = readLine();
     const secondString = readLine();
-    
     performOperation(secondInteger, secondDecimal, secondString);
 }
