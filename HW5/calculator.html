@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <svg width="620px" height="700px">
+        <rect width="400px" height="500px" x="150px" y="70px" rx="10px" ry="10px"
+        style="fill: black; stroke-width:3; stroke:goldenrod"/>
+    </svg>
+    <input class="display" type="text" id="result" disabled/>
+    <button type="button" id="plus" value="+" onclick="display('+')">+</button>
+    <button type="button" id="minus" value="-" onclick="display('-')">-</button>
+    <button type="button" id="multi" value="*" onclick="display('*')">*</button>
+    <button type="button" id="division" value="/" onclick="display('/')">/</button>
+    <button type="button" id="equal" value="=" onclick="calculate()">=</button>
+    <button type="button" class="num num1" value="1" onclick="display('1')">1</button>
+    <button type="button" class="num num2" value="2" onclick="display('2')">2</button>
+    <button type="button" class="num num3" value="3" onclick="display('3')">3</button>
+    <button type="button" class="num num4" value="4" onclick="display('4')">4</button>
+    <button type="button" class="num num5" value="5" onclick="display('5')">5</button>
+    <button type="button" class="num num6" value="6" onclick="display('6')">6</button>
+    <button type="button" class="num num7" value="7" onclick="display('7')">7</button>
+    <button type="button" class="num num8" value="8" onclick="display('8')">8</button>
+    <button type="button" class="num num9" value="9" onclick="display('9')">9</button>
+    <button type="button" class="num num0" value="0" onclick="display('0')">0</button>
+    <button type="button" class="clear" value="C" onclick="clearScreen()">C</button>
+    <script type="text/javascript" src="calculator.js"></script>
+</body>
+</html>

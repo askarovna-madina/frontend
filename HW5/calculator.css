@@ -1,0 +1,170 @@
+body {
+    background-color:ghostwhite;
+}
+.display{
+    width:340px;
+    height: 60px;
+    position: relative;
+    top:-550px;
+    left:-450px;
+    background-color: ghostwhite;
+}
+#division{
+    width: 60px;
+    height: 60px;
+    background-color:goldenrod ;
+    color: white;
+    border-radius: 50px;
+    font-size: 25px;
+    position: relative;
+    right:700px;
+    top: -450px
+}
+#division:hover{
+    color: goldenrod;
+    background-color: white;
+}
+/*--------------------------------------------*/
+#multi{
+    width: 60px;
+    height: 60px;
+    background-color:goldenrod ;
+    color: white;
+    border-radius: 50px;
+    font-size: 25px;
+    position: relative;
+    right:638px;
+    top: -380px
+}
+#multi:hover{
+    color: goldenrod;
+    background-color: white;
+}
+/*-------------------------------------*/
+#minus{
+    width: 60px;
+    height: 60px;
+    background-color:goldenrod ;
+    color: white;
+    border-radius: 50px;
+    font-size: 25px;
+    position: relative;
+    right: 573px;
+    top: -310px
+}
+#minus:hover{
+    color: goldenrod;
+    background-color: white;
+}
+/*------------------------------*/
+#plus{
+    width: 60px;
+    height: 60px;
+    background-color:goldenrod ;
+    color: white;
+    border-radius: 50px;
+    font-size: 25px;
+    position: relative;
+    right: 510px;
+    top: -240px
+}
+#plus:hover{
+    color: goldenrod;
+    background-color: white;
+}
+/*-----------------------------------------*/
+#equal{
+    width: 60px;
+    height: 60px;
+    background-color:goldenrod ;
+    color: white;
+    border-radius: 50px;
+    font-size: 25px;
+    position: relative;
+    left: -767px;
+    top: -170px
+}
+#equal:hover{
+    color: goldenrod;
+    background-color: white;
+}
+.display{
+    font-size: 45px;
+}
+.clear{
+    width: 60px;
+    height: 60px;
+    background-color:gray ;
+    color: white;
+    border-radius: 50px;
+    font-size: 25px;
+    position: absolute;
+    top:220px;
+    left:200px;
+}
+.clear:hover{
+    color: white;
+    background-color: rgb(105, 104, 104);
+}
+.num {
+    width: 60px;
+    height: 60px;
+    background-color:gray ;
+    color: white;
+    border-radius: 50px;
+    font-size: 25px;
+}
+.num:hover{
+    color: white;
+    background-color: rgb(105, 104, 104);
+}
+.num1{
+    position:absolute;
+    left: 200px;
+    top: 290px;
+}
+.num2{
+    position:absolute;
+    left: 290px;
+    top: 290px;
+}
+.num3{
+    position:absolute;
+    left: 380px;
+    top: 290px;
+}
+.num4{
+    position:absolute;
+    left: 200px;
+    top: 360px;
+}
+.num5{
+    position:absolute;
+    left: 290px;
+    top: 360px;
+}
+.num6{
+    position:absolute;
+    left: 380px;
+    top: 360px;
+}
+.num7{
+    position:absolute;
+    left: 200px;
+    top: 430px;
+}
+.num8{
+    position:absolute;
+    left: 290px;
+    top: 430px;
+}
+.num9{
+    position:absolute;
+    left: 380px;
+    top: 430px;
+}
+.num0{
+    position:absolute;
+    left: 200px;
+    top: 500px;
+}
